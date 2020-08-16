@@ -42,6 +42,3 @@ def merge(line):
     result = merging(res)
     result = add_zero(result , len(line))
     return result
-
-# Testing the above code.
-print(merge([4, 4, 8, 2, 0]))
